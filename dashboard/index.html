@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launch Radar: pre-token protocols ranked by a fitted value model</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <div>
+      <h1>Launch Radar</h1>
+      <p class="brand-sub">Pre-token protocols ranked by implied value, from a model fitted on the ones that already launched</p>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <a href="#/" data-nav="board">Board</a>
+    <a href="#/live" data-nav="live">Live tokens</a>
+    <a href="#/method" data-nav="method">Method &amp; accounting</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1" aria-busy="true"></main>
+<footer class="foot">
+  <p>Implied value is this radar's own claim: what a token would be worth if the protocol's record stayed as it is. It is not a prediction that a token will be issued. Data: the sealed DefiLlama snapshot named in the method view; the page runs with no network.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
